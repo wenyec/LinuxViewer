@@ -1,0 +1,145 @@
+Qtcam Application - 16.0.3
+-----------------------------
+* Added R2 features for cu130 camera.
+   1. Flip control
+   2. ROI Auto Exposure
+   3. Exposure compensation
+   4. Denoise
+   5. Burst length
+   6. Q-Factor
+   7. Face Detection
+   8. Smile Detection
+   9. Frame Rate control
+
+Qtcam Application - 16.0.2
+-----------------------------
+* Fixed bug for see3cam_30 camera: Default exposure value is not restored properly when selecting hardware default in ubuntu 16.04 version.
+
+Qtcam Application - 16.0.1
+-----------------------------
+* Added R2 features for see3cam_30 camera.
+   1. Scene Mode
+   2. Face Detection
+   3. Smile Detection
+   4. Frame rate control
+   5. Exposure compensation
+
+Qtcam Application - 16.0.0
+-----------------------------
+* Added support for CX3-SNI-RDK [ TANIA ] camera.
+
+Qtcam Application - 15.0.1
+-----------------------------
+Changes in See3cam_cu20 camera:
+1. Bug Fix: Manual Exposure is not applied properly in camera preview when clicking default in Image Quality Settings menu.
+2. Some control names are modified in extension unit.
+
+Qtcam Application - 15.0.0
+-----------------------------
+* Added support for see3cam_cu20 camera.
+
+Qtcam Application - 14.0.3
+-----------------------------
+* Added R2 features for see3cam_cu30 camera.
+
+   1. Scene Mode
+   2. ROI control
+   3. Burst Mode
+   4. Q Factor
+   5. Flip controls
+   6. Face Detection
+   7. Smile Detection
+   8. Frame rate control
+   9. Exposure compensation
+
+Qtcam Application - 14.0.2
+----------------------------
+* Fixed bugs:
+  1. Image not captured while 'sidebar hide option' clicked.
+  2. Video Recording started automatically after unplug device and click in preview area.
+  3. Brightness, Pan & Tilt controls minimum values not properly restored in that control text boxes.
+
+Qtcam Application - 14.0.1
+----------------------------
+* Fixed issue of not able to capture image using mouse left click in preview area when trying to capture image in trigger mode 
+  then trying to capture image in master mode.
+
+Qtcam Application - 14.0.0
+--------------------------
+* Added support for see3cam_cu135 camera.
+
+Qtcam Application - 13.1.1
+--------------------------
+* Bugfixes in features of see3cam_130 camera.
+
+Qtcam Application - 13.1.0
+--------------------------
+* Implemented flash control for See3cam_cu40 camera.
+
+Qtcam Application - 13.0.0
+--------------------------
+* Added support for See3CAM_81 camera.
+* The following additional features are supported in see3cam_130 camera.
+	1. Face detection
+	2. Smile detection
+	3. Exposure compensation
+	4. Frame Rate Control
+Qtcam Application - 12.0.0
+--------------------------
+* Added support for See3CAM_30 camera.
+
+Qtcam Application - 11.1.0
+--------------------------
+* Qtcam code refactored, codec id name is changed based on codec version and some of the application bugfixes.
+
+Qtcam Application - 11.0.2
+--------------------------
+* Added multiple shots in trigger mode for See3CAM_12CUNIR camera.
+
+Qtcam Application - 11.0.1
+--------------------------
+* Fixed issue of popup display "Image not saved in the location" when external trigger key pressed in econ's 1Mp monochrome, See3CAM_12CUNIR cameras
+
+Qtcam Application-11.0.0
+------------------------
+* Added support for See3CAM_130 camera.
+
+Qtcam Application-10.0.0
+------------------------
+* Added support for Ascella camera.
+
+Qtcam Application-9.0.0
+-----------------------
+* Added support for See3CAM_CU30 camera.
+
+Qtcam Application-8.0.2
+-------------------------
+* Added Qtcam support for ubuntu 15.10 and ubuntu 16.04 versions
+
+Qtcam Application-8.0.1
+-------------------------
+* Code cleanup in Qtcam Application.
+
+Qtcam Application-7.0.1
+-----------------------
+* Added support for logitech C920 Webcam Pro camera
+* Added support for logitech C525 Webcam camera
+* Added support for logitech C310 HD Webcam  camera
+* Added support for logitech C615 HD Webcam  camera
+* Added support for LifeCam HD-3000
+* Added support LifeCam Cinema HD
+
+Qtcam Application-4.0.1
+-------------------------------
+* Added support for all uvc cameras.
+* switching of resolution is removed when still and video format, resolution are same to make faster.
+* Video capture filter is renamed to Image Quality Settings.
+* Video capture pin and Video Capture properties tabs are combined into Video Capture Settings tab.
+* Still capture pin and still capture properties tabs are combined into Still Capture Settings tab.
+* Qtcam logo is changed.
+* Preview color format is displayed in status bar.
+
+
+Qtcam Application-1.7.0
+------------------------------
+*Initial public release
